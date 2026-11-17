@@ -1,11 +1,12 @@
 {
   "name": "tic-tac-toe-frontend",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://rootCTRLer.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "deploy": "gh-pages -d out --dotfiles",
     "lint": "eslint"
   },
   "dependencies": {
